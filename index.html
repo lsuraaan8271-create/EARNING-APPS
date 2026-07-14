@@ -1,25 +1,1267 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Earn With San</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Earn With San | Premium</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#090b1a,#1d0f3a,#0b3b5c);color:#fff}
-.hero{padding:70px 20px;text-align:center;background:radial-gradient(circle at top,#7b2ff7,#090b1a)}
-h1{font-size:48px;margin:0}.sub{opacity:.8}
-.wrap{max-width:1100px;margin:auto;padding:20px}
-.social,.grid{display:grid;gap:18px}.social{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:30px 0}.grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
-a.btn,.social a{display:block;text-decoration:none;color:#fff;padding:16px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);transition:.3s}
-.social a{text-align:center}.social a:hover,.card:hover{transform:translateY(-5px)}
-.card{background:rgba(255,255,255,.08);padding:22px;border-radius:20px;border:1px solid rgba(255,255,255,.15);transition:.3s}
-.join{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:30px;background:linear-gradient(90deg,#00d26a,#00b7ff)}
-</style></head><body>
-<div class="hero"><h1>💰 Earn With San</h1><p class="sub">Premium Earning Apps & Contact Links</p></div>
-<div class="wrap">
-<div class="social">
-<a href="https://t.me/earnwithsan"><i class="fab fa-telegram"></i> Telegram Group</a>
-<a href="https://t.me/batbale03"><i class="fab fa-telegram"></i> Telegram Contact</a>
-<a href="https://wa.me/918541061963?text=Hello%20Sir,%20I%20want%20to%20know%20more%20about%20your%20work."><i class="fab fa-whatsapp"></i> WhatsApp</a>
-<a href="https://www.instagram.com/batbale27?igsh=a3RxOGdkM2w3eGIy"><i class="fab fa-instagram"></i> Instagram</a>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#050816;
+color:white;
+overflow-x:hidden;
+
+}
+
+/* Animated Aurora */
+
+body::before{
+
+content:'';
+
+position:fixed;
+
+width:900px;
+height:900px;
+
+background:#7c3aed;
+
+filter:blur(180px);
+
+opacity:.45;
+
+top:-300px;
+left:-250px;
+
+animation:move1 12s infinite alternate;
+
+z-index:-2;
+
+}
+
+body::after{
+
+content:'';
+
+position:fixed;
+
+width:900px;
+height:900px;
+
+background:#06b6d4;
+
+filter:blur(180px);
+
+opacity:.40;
+
+right:-250px;
+bottom:-350px;
+
+animation:move2 13s infinite alternate;
+
+z-index:-2;
+
+}
+
+@keyframes move1{
+
+100%{
+
+transform:translate(150px,120px);
+
+}
+
+}
+
+@keyframes move2{
+
+100%{
+
+transform:translate(-150px,-100px);
+
+}
+
+}
+
+nav{
+
+position:fixed;
+
+top:20px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:92%;
+
+max-width:1200px;
+
+padding:16px 35px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+border-radius:60px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.12);
+
+z-index:100;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:800;
+
+background:linear-gradient(90deg,#00d4ff,#8b5cf6,#facc15);
+
+-webkit-background-clip:text;
+
+color:transparent;
+
+}
+
+.menu{
+
+display:flex;
+
+gap:18px;
+
+}
+
+.menu a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:15px;
+
+padding:12px 22px;
+
+border-radius:30px;
+
+transition:.3s;
+
+}
+
+.menu a:hover{
+
+background:linear-gradient(135deg,#00d4ff,#7c3aed);
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:120px 8% 60px;
+
+gap:60px;
+
+flex-wrap:wrap;
+
+}
+
+.left{
+
+flex:1;
+
+min-width:320px;
+
+}
+
+.left h3{
+
+color:#facc15;
+
+font-size:20px;
+
+letter-spacing:3px;
+
+margin-bottom:15px;
+
+}
+
+.left h1{
+
+font-size:65px;
+
+line-height:1.1;
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+.left h1 span{
+
+background:linear-gradient(90deg,#00d4ff,#8b5cf6,#facc15);
+
+-webkit-background-clip:text;
+
+color:transparent;
+
+}
+
+.left p{
+
+font-size:18px;
+
+line-height:1.8;
+
+opacity:.85;
+
+margin-bottom:35px;
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:18px;
+
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+text-decoration:none;
+
+padding:16px 34px;
+
+border-radius:50px;
+
+font-weight:700;
+
+transition:.35s;
+
+}
+
+.primary{
+
+background:linear-gradient(135deg,#06b6d4,#7c3aed);
+
+color:white;
+
+box-shadow:0 0 30px rgba(124,58,237,.5);
+
+}
+
+.secondary{
+
+border:1px solid rgba(255,255,255,.25);
+
+background:rgba(255,255,255,.08);
+
+color:white;
+
+backdrop-filter:blur(20px);
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px) scale(1.03);
+
+}
+
+.right{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+min-width:320px;
+
+}
+
+.hero-card{
+
+width:420px;
+
+height:520px;
+
+border-radius:40px;
+
+background:
+
+linear-gradient(rgba(255,255,255,.08),rgba(255,255,255,.05));
+
+border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(25px);
+
+overflow:hidden;
+
+box-shadow:0 0 80px rgba(0,212,255,.15);
+
+}
+
+.hero-card img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+}
+
+.stats{
+
+margin-top:40px;
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.stat{
+
+padding:18px 24px;
+
+border-radius:22px;
+
+background:rgba(255,255,255,.08);
+
+border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(15px);
+
+}
+
+.stat h2{
+
+font-size:32px;
+
+color:#00d4ff;
+
+}
+
+.stat p{
+
+font-size:14px;
+
+opacity:.8;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.left h1{
+
+font-size:46px;
+
+}
+
+nav{
+
+padding:15px 20px;
+
+}
+
+.menu{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+Earn With San
 </div>
-<div class="grid">
-<div class="card"><h2>1. DIWAPAY</h2><p><b>Commission:</b> 4%</p><p>Daily Bonus Upto ₹1500</p><a class="btn join" href="https://install.diwa-pay.net/#/?invite=jbWLxw">Join Now</a></div><div class="card"><h2>2. LINKPAY</h2><p><b>Commission:</b> 4%</p><p>Selling Fast</p><a class="btn join" href="https://mobile.linkpulsex.com/#/pages/auth/register?invite=DfQENK">Join Now</a></div><div class="card"><h2>3. SHAKTIPAY</h2><p><b>Commission:</b> 3.8%</p><p>Daily Earning Upto ₹1000</p><a class="btn join" href="https://shaktipay.net/#/?invite=xB32Pu">Join Now</a></div><div class="card"><h2>4. COMEPAY</h2><p><b>Commission:</b> 3%</p><p>Selling Super Fast • Daily Bonus Upto ₹1500</p><a class="btn join" href="https://comepaydown.net/#/?invite=dgTDDn">Join Now</a></div><div class="card"><h2>5. WECOINPAY</h2><p><b>Commission:</b> 4%</p><p>USDT Rate ₹111 • Best For USDT Top Up</p><a class="btn join" href="https://install.wecoin.top/#/?invite=aUCSZp">Join Now</a></div><div class="card"><h2>6. DDPAY</h2><p><b>Commission:</b> 4%</p><p>Daily Bonus Upto ₹1500</p><a class="btn join" href="https://dd-pay.net/#/?invite=oPiBxV">Join Now</a></div></div></div></body></html>
+
+<div class="menu">
+
+<a href="#">Home</a>
+
+<a href="#apps">Apps</a>
+
+<a href="#contact">Contact</a>
+
+<a href="#join">Join</a>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h3>PREMIUM EARNING PLATFORM</h3>
+
+<h1>Grow Your <span>Online Income</span> With Trusted Apps</h1>
+
+<p>
+
+Discover verified earning platforms with commission offers, daily bonuses and exclusive referral opportunities.
+
+</p>
+
+<div class="buttons">
+
+<a href="#apps" class="btn primary">
+Explore Apps
+</a>
+
+<a href="https://t.me/earnwithsan" class="btn secondary">
+Telegram Group
+</a>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h2>6+</h2>
+<p>Premium Apps</p>
+</div>
+
+<div class="stat">
+<h2>24×7</h2>
+<p>Support</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Mobile Ready</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="hero-card">
+
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80">
+
+</div>
+
+</div>
+
+</section><section id="apps" class="apps">
+
+<h2 class="title">
+🔥 Premium Earning Applications
+</h2>
+
+<p class="subtitle">
+Choose the best platform and start earning today.
+</p>
+
+<div class="cards">
+
+<!-- DIWAPAY -->
+
+<div class="premium-card">
+
+<div class="badge">
+⭐ MOST POPULAR
+</div>
+
+<div class="icon">
+
+<i class="fa-solid fa-wallet"></i>
+
+</div>
+
+<h3>DIWAPAY</h3>
+
+<p class="commission">
+4% Commission
+</p>
+
+<ul>
+
+<li>💰 Daily Bonus ₹1500</li>
+
+<li>⚡ Fast Withdrawal</li>
+
+<li>🛡 Secure Platform</li>
+
+</ul>
+
+<a href="https://install.diwa-pay.net/#/?invite=jbWLxw"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+<!-- LINKPAY -->
+
+<div class="premium-card">
+
+<div class="badge purple">
+🔥 HOT
+</div>
+
+<div class="icon">
+
+<i class="fa-solid fa-money-bill-trend-up"></i>
+
+</div>
+
+<h3>LINKPAY</h3>
+
+<p class="commission">
+4% Commission
+</p>
+
+<ul>
+
+<li>🚀 Selling Fast</li>
+
+<li>💵 High Earnings</li>
+
+<li>⚡ Instant Join</li>
+
+</ul>
+
+<a href="https://mobile.linkpulsex.com/#/pages/auth/register?invite=DfQENK"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+<!-- SHAKTIPAY -->
+
+<div class="premium-card">
+
+<div class="badge green">
+
+💎 VERIFIED
+
+</div>
+
+<div class="icon">
+
+<i class="fa-solid fa-bolt"></i>
+
+</div>
+
+<h3>SHAKTIPAY</h3>
+
+<p class="commission">
+3.8% Commission
+</p>
+
+<ul>
+
+<li>₹1000 Daily Income</li>
+
+<li>Premium Rewards</li>
+
+<li>Trusted Platform</li>
+
+</ul>
+
+<a href="https://shaktipay.net/#/?invite=xB32Pu"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+<!-- COMEPAY -->
+
+<div class="premium-card">
+
+<div class="badge gold">
+
+👑 VIP
+
+</div>
+
+<div class="icon">
+
+<i class="fa-solid fa-coins"></i>
+
+</div>
+
+<h3>COMEPAY</h3>
+
+<p class="commission">
+3% Commission
+</p>
+
+<ul>
+
+<li>Daily Bonus ₹1500</li>
+
+<li>Selling Super Fast</li>
+
+<li>Premium Support</li>
+
+</ul>
+
+<a href="https://comepaydown.net/#/?invite=dgTDDn"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+<!-- WECOINPAY -->
+
+<div class="premium-card">
+
+<div class="badge">
+
+USDT
+
+</div>
+
+<div class="icon">
+
+<i class="fa-brands fa-bitcoin"></i>
+
+</div>
+
+<h3>WECOINPAY</h3>
+
+<p class="commission">
+
+4% Commission
+
+</p>
+
+<ul>
+
+<li>USDT ₹111</li>
+
+<li>Crypto Top-up</li>
+
+<li>Best Exchange</li>
+
+</ul>
+
+<a href="https://install.wecoin.top/#/?invite=aUCSZp"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+<!-- DDPAY -->
+
+<div class="premium-card">
+
+<div class="badge purple">
+
+NEW
+
+</div>
+
+<div class="icon">
+
+<i class="fa-solid fa-credit-card"></i>
+
+</div>
+
+<h3>DDPAY</h3>
+
+<p class="commission">
+
+4% Commission
+
+</p>
+
+<ul>
+
+<li>₹1500 Daily Bonus</li>
+
+<li>Fast Joining</li>
+
+<li>24×7 Service</li>
+
+</ul>
+
+<a href="https://dd-pay.net/#/?invite=oPiBxV"
+class="join-btn">
+
+Join Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.apps{
+
+padding:100px 8%;
+
+}
+
+.title{
+
+font-size:48px;
+
+text-align:center;
+
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+text-align:center;
+
+opacity:.7;
+
+margin-bottom:60px;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+}
+
+.premium-card{
+
+position:relative;
+
+padding:35px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.06);
+
+border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(18px);
+
+transition:.4s;
+
+overflow:hidden;
+
+}
+
+.premium-card::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+padding:2px;
+
+background:linear-gradient(45deg,#00d4ff,#7c3aed,#facc15);
+
+-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+
+-webkit-mask-composite:xor;
+
+mask-composite:exclude;
+
+}
+
+.premium-card:hover{
+
+transform:translateY(-15px);
+
+box-shadow:0 0 60px rgba(124,58,237,.35);
+
+}
+
+.badge{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border-radius:40px;
+
+background:#00d4ff;
+
+color:black;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.purple{background:#8b5cf6;color:white;}
+
+.green{background:#10b981;}
+
+.gold{background:#facc15;color:black;}
+
+.icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+color:#00d4ff;
+
+}
+
+.commission{
+
+font-size:22px;
+
+font-weight:700;
+
+margin:15px 0;
+
+color:#facc15;
+
+}
+
+.premium-card ul{
+
+list-style:none;
+
+line-height:2;
+
+opacity:.9;
+
+margin:20px 0;
+
+}
+
+.join-btn{
+
+display:block;
+
+text-align:center;
+
+padding:16px;
+
+border-radius:50px;
+
+background:linear-gradient(90deg,#06b6d4,#7c3aed);
+
+text-decoration:none;
+
+color:white;
+
+font-weight:700;
+
+transition:.3s;
+
+}
+
+.join-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+</style><!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Connect With Us</h2>
+
+<p>Join our official community & get instant updates.</p>
+
+<div class="contact-buttons">
+
+<a href="https://t.me/earnwithsan" target="_blank">
+
+<i class="fab fa-telegram"></i>
+
+Telegram Group
+
+</a>
+
+<a href="https://t.me/batbale03" target="_blank">
+
+<i class="fab fa-telegram"></i>
+
+Telegram Contact
+
+</a>
+
+<a href="https://wa.me/918541061963?text=Hello%20Sir,%20I%20want%20to%20know%20more%20about%20your%20work." target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+WhatsApp
+
+</a>
+
+<a href="https://www.instagram.com/batbale27?igsh=a3RxOGdkM2w3eGIy" target="_blank">
+
+<i class="fab fa-instagram"></i>
+
+Instagram
+
+</a>
+
+</div>
+
+</section>
+
+
+<section class="counter">
+
+<div>
+
+<h1 id="c1">0</h1>
+
+<p>Premium Apps</p>
+
+</div>
+
+<div>
+
+<h1 id="c2">0</h1>
+
+<p>Happy Users</p>
+
+</div>
+
+<div>
+
+<h1 id="c3">0</h1>
+
+<p>Daily Visitors</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Earn With San</h2>
+
+<p>
+
+Premium Referral Website
+
+</p>
+
+<p>
+
+© 2025 All Rights Reserved
+
+</p>
+
+</footer>
+
+<style>
+
+.contact{
+
+padding:100px 8%;
+
+text-align:center;
+
+}
+
+.contact h2{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+}
+
+.contact-buttons{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-top:45px;
+
+}
+
+.contact-buttons a{
+
+padding:20px;
+
+border-radius:20px;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:700;
+
+background:rgba(255,255,255,.08);
+
+border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(15px);
+
+color:white;
+
+transition:.35s;
+
+}
+
+.contact-buttons a:hover{
+
+transform:translateY(-10px);
+
+background:linear-gradient(135deg,#00d4ff,#7c3aed);
+
+box-shadow:0 0 30px rgba(0,212,255,.4);
+
+}
+
+.counter{
+
+display:flex;
+
+justify-content:center;
+
+gap:80px;
+
+padding:100px 0;
+
+flex-wrap:wrap;
+
+}
+
+.counter h1{
+
+font-size:60px;
+
+color:#00d4ff;
+
+}
+
+.counter p{
+
+opacity:.8;
+
+}
+
+footer{
+
+padding:60px;
+
+text-align:center;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+margin-top:80px;
+
+border-top:1px solid rgba(255,255,255,.15);
+
+}
+
+footer h2{
+
+font-size:35px;
+
+margin-bottom:15px;
+
+background:linear-gradient(90deg,#00d4ff,#8b5cf6,#facc15);
+
+-webkit-background-clip:text;
+
+color:transparent;
+
+}
+
+/* Floating Particles */
+
+.particle{
+
+position:fixed;
+
+width:6px;
+
+height:6px;
+
+background:white;
+
+border-radius:50%;
+
+opacity:.35;
+
+animation:float 15s linear infinite;
+
+z-index:-1;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(100vh);
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+}
+
+}
+
+</style>
+
+<script>
+
+for(let i=0;i<70;i++){
+
+let p=document.createElement("div");
+
+p.className="particle";
+
+p.style.left=Math.random()*100+"%";
+
+p.style.animationDuration=8+Math.random()*12+"s";
+
+p.style.opacity=Math.random();
+
+document.body.appendChild(p);
+
+}
+
+function animate(id,target){
+
+let n=0;
+
+let el=document.getElementById(id);
+
+let t=setInterval(()=>{
+
+n++;
+
+el.innerHTML=n+"+";
+
+if(n>=target)clearInterval(t);
+
+},15);
+
+}
+
+animate("c1",6);
+
+animate("c2",250);
+
+animate("c3",1200);
+
+const cards=document.querySelectorAll(".premium-card");
+
+window.addEventListener("scroll",()=>{
+
+cards.forEach(card=>{
+
+const top=card.getBoundingClientRect().top;
+
+if(top<window.innerHeight-80){
+
+card.style.opacity="1";
+
+card.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+
+card.style.transform="translateY(60px)";
+
+card.style.transition=".8s";
+
+});
+
+</script>
+
+</body>
+
+</html>
+
