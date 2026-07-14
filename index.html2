@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Earn With San</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff}
+header{padding:40px;text-align:center;background:linear-gradient(90deg,#06b6d4,#7c3aed)}
+h1{margin:0} .container{max-width:900px;margin:auto;padding:20px}
+.card{background:#1f2937;border-radius:18px;padding:20px;margin:18px 0;box-shadow:0 8px 20px rgba(0,0,0,.3);transition:.3s}
+.card:hover{transform:translateY(-5px)}
+.btn{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:30px;background:linear-gradient(90deg,#22c55e,#06b6d4);color:#fff;text-decoration:none;font-weight:bold}
+.social a{display:inline-block;margin:8px;padding:12px 18px;border-radius:30px;background:#111827;color:#fff;text-decoration:none}
+footer{text-align:center;padding:20px;color:#cbd5e1}
+</style></head><body>
+<header><h1>💰 Earn With San</h1><p>Premium Earning Apps & Contact Links</p></header>
+<div class="container">
+<div class="social">
+<a href="https://t.me/earnwithsan"><i class="fab fa-telegram"></i> Telegram Group</a>
+<a href="https://t.me/batbale03"><i class="fab fa-telegram"></i> Telegram Contact</a>
+<a href="https://wa.me/918541061963?text=Hello%20Sir,%20I%20want%20to%20know%20more%20about%20your%20work."><i class="fab fa-whatsapp"></i> WhatsApp</a>
+<a href="https://www.instagram.com/batbale27?igsh=a3RxOGdkM2w3eGIy"><i class="fab fa-instagram"></i> Instagram</a>
+</div>
+<div class="card"><h2>1. DIWAPAY</h2><p><b>Commission:</b> 4%<br>Daily Bonus Upto ₹1500</p><a class="btn" href="https://install.diwa-pay.net/#/?invite=jbWLxw">Join Now</a></div><div class="card"><h2>2. LINKPAY</h2><p><b>Commission:</b> 4%<br>Selling Fast</p><a class="btn" href="https://mobile.linkpulsex.com/#/pages/auth/register?invite=DfQENK">Join Now</a></div><div class="card"><h2>3. SHAKTIPAY</h2><p><b>Commission:</b> 3.8%<br>Daily Earning Upto ₹1000</p><a class="btn" href="https://shaktipay.net/#/?invite=xB32Pu">Join Now</a></div><div class="card"><h2>4. COMEPAY</h2><p><b>Commission:</b> 3%<br>Selling Super Fast • Daily Bonus Upto ₹1500</p><a class="btn" href="https://comepaydown.net/#/?invite=dgTDDn">Join Now</a></div><div class="card"><h2>5. WECOINPAY</h2><p><b>Commission:</b> 4%<br>USDT Rate ₹111 • Best for USDT Top Up</p><a class="btn" href="https://install.wecoin.top/#/?invite=aUCSZp">Join Now</a></div><div class="card"><h2>6. DDPAY</h2><p><b>Commission:</b> 4%<br>Daily Bonus Upto ₹1500</p><a class="btn" href="https://dd-pay.net/#/?invite=oPiBxV">Join Now</a></div></div><footer>© Earn With San</footer></body></html>
